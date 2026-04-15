@@ -1,0 +1,28 @@
+# Simple Beginner Calculator
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Sum =", a + b)
+print("Difference =", a - b)
+print("Product =", a * b)
+print("Quotient =", a / b)
+print("mod =",a%b)
+
+print((a>2)and(b>=6))
+
+a1=a&b
+print(a1)
+a2=a|b
+print(a2)
+a3=~a
+print(a3)
+a4=a^b
+print(a4)
+a5=a>>2
+print(a5)
+a6=a<<2
+print(a6)
+print("intial=",a)
+a+=5
+print("final=",a)
