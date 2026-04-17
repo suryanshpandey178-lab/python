@@ -1,0 +1,39 @@
+#program to check membership operators
+numbers=[10,20,30,40,50]
+print("is 20 in numbers?",20 in numbers)
+print("is 60 not in numbers?",60 not in numbers)
+text="Python programming"
+print("is 'P' in text?",'P' in text)
+print("is java not in text?",'Java'not in text)
+#identity operator with integers
+a=10
+b=10
+print("a is b",a is b)
+print("a is not b",a is not b)
+x=[1,2,3]
+y=[1,2,3]
+print("x is y",x is y)
+print("x==y",x==y)
+num=int(input("enter number:"))
+num1=int(input("enter number 1:"))
+num2=int(input("enter number 2:"))
+num3=int(input("enter number 3:"))
+
+if num%2==0:
+    print("even")
+else :
+    print("odd")
+if num>0:print("positive")
+elif num<0:print("negetive")
+else:print("zero is neither positive nor negetive")
+if num1>num2 and num1>num3:
+    print("num1 is greatest")
+elif num2>num1 and num2>num3:
+    print("num2 is greatest")
+else:print("num3 is the greatest")
+i=1
+while i<=5:
+ print(i,end=" ")
+ i+=1
+for i in range(1,6):
+ print(i)
